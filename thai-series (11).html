@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+<title>thai-series-11 </title>
+<meta charset='UTF-8' />
+
+
+<link href="https://playtvthai.github.io/m3u8/css/bootstrap.css" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://playtvthai.github.io/m3u8/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/normalize.css">
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/custom.css">
+
+	
+<!-- Styles of Puerto Responsive Flat Buttons -->
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/main.css">
+	
+<!-- Font awesome -->
+<link rel="stylesheet" href="http://hdtvdd.com/work/assets_remark/fonts/font-awesome/font-awesome.min.css">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://playtvthai.github.io/m3u8/js/jquery-1.11.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900" rel='stylesheet' type='text/css'>
+
+<script src="https://playtvthai.github.io/m3u8/js/jquery.backstretch.js"></script>
+<script src="http://hdtvdd.com/work/bootstrap-login-forms/form-2/assets/js/scripts.js"></script>
+<style type="text/css">
+
+.overlay {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(255,255,255,0);
+}
+
+.overlay-flag {
+    position:absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align:right;
+	background-color:rgba(255,255,255,0);
+
+}
+
+
+.overlay2 {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(0,0,0,0.5);
+	height:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	width:100%;
+	margin-left:0px;
+	margin-top:35px;
+}
+.login_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.live_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.login_txt {
+	border: #0A0A0A;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	width:150px;
+    margin-top: -6px;
+
+}
+
+input:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px
+}
+
+button:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+}
+
+a:focus img{
+	outline: none !important;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+
+}
+
+.box-flag {
+	border: 0px;
+	background-color: rgba(255,255,255,0.0);
+	display: inline-block;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="http://hdtvdd.com/work/font/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/8k.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/overlay.css" type="text/css" charset="utf-8">
+<link href="http://hdtvdd.com/work/css/theme.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <style>
+  .modal-header {
+    background-color: #111;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  
+.group {
+  margin-bottom: 30px;
+}
+.group label {
+  font-size: 24px;
+}
+.group2 label {
+  font-size: 20px;
+}
+  
+  input[type='text'] { font-size: 24px; }
+  
+  </style>
+
+
+
+
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_vip").click(function(){
+    $("#myModal_vip").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_cpass").click(function(){
+    $("#myModal_changepass").modal();
+  });
+});
+</script>
+
+<style type="text/css">
+.footer 
+{
+    text-align: center;
+    position : absolute;
+    bottom : -20;
+    width:99%;
+    height : 56px;
+    margin-top : 50px;
+  }
+</style>
+</header>
+	
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>       
+
+
+										
+  <div class="container" style="background-color:rgba(0,0,0,0.0); height:100%;">
+     <div class="container_wrap">
+     	<div class="row" style="background-color:#27282c;border-radius:5px">
+        	<div class="col-lg-12 col-md-12 col-xs-12" style="margin-top:10px;margin-bottom:10px;">
+            	<div class="row" >
+			<div class="col-lg-2 col-md-2 col-sm-5 col-xs-5">
+				<div class="logo">
+				</div>
+			</div>
+
+
+		<div class="col-lg-10 col-md-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-xs-12" align="left" style="padding-top:0px;padding-bottom:5px;padding-left:5px;padding-right:5px">
+            <form class="form-inline">
+                <div class="form-group" style="margin:5px;">
+
+                
+					<form action="" method="get" name="lange">
+						<input name="lange" type="hidden" id="lange" value="en">
+						<input type="image" src="/web/images/en.gif" name="submit" width="30" height="2%" alt="submit"/>
+					</form>	
+
+
+	<!--div class="form-group"-->
+	<label for="form-password"><font color='white'>ชื่อ :  </font><font color='yellow'>[ ผู้เฒ่าพเนจร ™ ]</font></label>
+	<!--/div-->
+
+										
+    <button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:digital'"></i> 🏠 Home ™ </button>
+                   
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:live'"></i> 📡 ถ่ายทอดสด ™</button>
+	
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-serie'"></i> 🎞️ ดูซีรี่ย์ ™ </button>
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>🎥 ดูหนัง ™  </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>📽️ ดูสารคดี ™ </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='http://action_exit'"></i>🚪 ออก</button>					
+
+
+
+------------------------------------------------------------------------------------------
+
+
+        <div class="col-lg-9 col-md-9 col-xs-9" style="width:130%;padding-left:0px;padding-right:0px;">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+
+
+ 
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d32476b5eca80327cc776bdd/d32476b5eca80327cc776bdd.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/13ce7bea4e72cc23ca564339/13ce7bea4e72cc23ca564339.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/8e59aee508cd7334f11ca75b/8e59aee508cd7334f11ca75b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/9f955d056cf2a437e4995a4c/9f955d056cf2a437e4995a4c.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ee206d0bf5a628eaba86cc49/ee206d0bf5a628eaba86cc49.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/9e1d1548117066e89f4dc51e/9e1d1548117066e89f4dc51e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/b9bb06b081c33de0c4cb2993/b9bb06b081c33de0c4cb2993.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/dc6e57537f75069f2fd22930/dc6e57537f75069f2fd22930.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ca815625836b781c8fb0f6e7/ca815625836b781c8fb0f6e7.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1de65ea41028b9dbd1259c09/1de65ea41028b9dbd1259c09.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/9f9d1c2d864e2021370ed5f5/9f9d1c2d864e2021370ed5f5.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/17aff322dc799c993ec41016/17aff322dc799c993ec41016.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/5d814a56590d015d4ac04fc3/5d814a56590d015d4ac04fc3.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP13
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/8924bcf8a2d723886d15be47/8924bcf8a2d723886d15be47.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP14
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/8cdf44d7c740d143404a7de0/8cdf44d7c740d143404a7de0.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP15
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/0c86b469d3a9831922e788a5/0c86b469d3a9831922e788a5.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP16
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/55b0fd854801b0842d9bdf0f/55b0fd854801b0842d9bdf0f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP17
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/7670ebdeeee71bc33df54b21/7670ebdeeee71bc33df54b21.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP18
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d8b8332dd63e2301c2204a76/d8b8332dd63e2301c2204a76.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP19
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/3ce11c8779e59e6584c2752e/3ce11c8779e59e6584c2752e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP20
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1949285fcd6337311c1f54c8/1949285fcd6337311c1f54c8.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP21
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/860b310293c094fdf20776db/860b310293c094fdf20776db.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP22
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Good-Heavens-Im-a-Goose-not-a-Swan-2025-234x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/0a113370656066ba695dc287/0a113370656066ba695dc287.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP23
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/84bc1685c4d096a4a962da17/84bc1685c4d096a4a962da17.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/831a96f4a26797165507733d/831a96f4a26797165507733d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1e601b09fb571832082058fd/1e601b09fb571832082058fd.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/f57f0819e30de9633acd07b1/f57f0819e30de9633acd07b1.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/8fbb90a749437dcf535fa0a3/8fbb90a749437dcf535fa0a3.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/4306f680e6bbe97f92ed9aae/4306f680e6bbe97f92ed9aae.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/af0ebf8da00cc34a69d87951/af0ebf8da00cc34a69d87951.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/09989b2259c20785f5046b74/09989b2259c20785f5046b74.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/3d42b2ac94c629c1d2737e7d/3d42b2ac94c629c1d2737e7d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Flirt-Milk-2025-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B7%E0%B8%94-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/087e309afea8c6fd255578f2/087e309afea8c6fd255578f2.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1dda4f1f6edd8eab094e389f/1dda4f1f6edd8eab094e389f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/7069218afebdf673e4174fe8/7069218afebdf673e4174fe8.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ea5923438ac8a460b56517ab/ea5923438ac8a460b56517ab.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://www.watchlakorn.in/egdeny/d3f0c1e6c548b40a7847d28f204fd8ee/aGQ=/master.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://www.watchlakorn.in/egdeny/daea4e4ce3879ef8edefbe631d926d57/aGQ=/master.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/f5a46c7007cc09f422a0bd6f/f5a46c7007cc09f422a0bd6f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/Gelboys-2025-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B9%8A%E0%B8%81%E0%B9%83%E0%B8%88-225x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/a2fc584927d990c7bafb1229/a2fc584927d990c7bafb1229.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+   
+
+<div class="col-lg-12 col-md-12 col-xs-12">
+	<div class="example" align="center">
+		<nav>
+			<ul class="pagination">
+				<li><a href="go:main-fw" aria-label="Previous"><span aria-hidden="true"><< หน้าแรก</span></a></li>		
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (1).html'>กลับหน้าแรก</a></li>
+										<li class="active"><a href="https://udzaa2238.github.io/thai-series/thai-series (11).html'><b>11</b></a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (12).html'>12</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (13).html'>13</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (14).html'>14</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (15).html'>15</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (16).html'>16</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (17).html'>17</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (18).html'>18</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (19).html'>19</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (20).html'>20</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (21).html'>21</a></li>
+						<li><a href="https://udzaa2238.github.io/thai-series/thai-series (40).html'>  หน้าสุดท้าย» </a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+
+
+</div>
+</div>
+</div>  
+</div> 
+</div>
+</div>
+</div>

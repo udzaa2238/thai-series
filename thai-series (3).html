@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+<title>thai-series-3 </title>
+<meta charset='UTF-8' />
+
+
+<link href="https://playtvthai.github.io/m3u8/css/bootstrap.css" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://playtvthai.github.io/m3u8/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/normalize.css">
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/custom.css">
+
+	
+<!-- Styles of Puerto Responsive Flat Buttons -->
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/main.css">
+	
+<!-- Font awesome -->
+<link rel="stylesheet" href="http://hdtvdd.com/work/assets_remark/fonts/font-awesome/font-awesome.min.css">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://playtvthai.github.io/m3u8/js/jquery-1.11.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900" rel='stylesheet' type='text/css'>
+
+<script src="https://playtvthai.github.io/m3u8/js/jquery.backstretch.js"></script>
+<script src="http://hdtvdd.com/work/bootstrap-login-forms/form-2/assets/js/scripts.js"></script>
+<style type="text/css">
+
+.overlay {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(255,255,255,0);
+}
+
+.overlay-flag {
+    position:absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align:right;
+	background-color:rgba(255,255,255,0);
+
+}
+
+
+.overlay2 {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(0,0,0,0.5);
+	height:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	width:100%;
+	margin-left:0px;
+	margin-top:35px;
+}
+.login_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.live_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.login_txt {
+	border: #0A0A0A;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	width:150px;
+    margin-top: -6px;
+
+}
+
+input:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px
+}
+
+button:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+}
+
+a:focus img{
+	outline: none !important;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+
+}
+
+.box-flag {
+	border: 0px;
+	background-color: rgba(255,255,255,0.0);
+	display: inline-block;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="http://hdtvdd.com/work/font/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/8k.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/overlay.css" type="text/css" charset="utf-8">
+<link href="http://hdtvdd.com/work/css/theme.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <style>
+  .modal-header {
+    background-color: #111;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  
+.group {
+  margin-bottom: 30px;
+}
+.group label {
+  font-size: 24px;
+}
+.group2 label {
+  font-size: 20px;
+}
+  
+  input[type='text'] { font-size: 24px; }
+  
+  </style>
+
+
+
+
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_vip").click(function(){
+    $("#myModal_vip").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_cpass").click(function(){
+    $("#myModal_changepass").modal();
+  });
+});
+</script>
+
+<style type="text/css">
+.footer 
+{
+    text-align: center;
+    position : absolute;
+    bottom : -20;
+    width:99%;
+    height : 56px;
+    margin-top : 50px;
+  }
+</style>
+</header>
+	
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>       
+
+
+										
+  <div class="container" style="background-color:rgba(0,0,0,0.0); height:100%;">
+     <div class="container_wrap">
+     	<div class="row" style="background-color:#27282c;border-radius:5px">
+        	<div class="col-lg-12 col-md-12 col-xs-12" style="margin-top:10px;margin-bottom:10px;">
+            	<div class="row" >
+			<div class="col-lg-2 col-md-2 col-sm-5 col-xs-5">
+				<div class="logo">
+				</div>
+			</div>
+
+
+		<div class="col-lg-10 col-md-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-xs-12" align="left" style="padding-top:0px;padding-bottom:5px;padding-left:5px;padding-right:5px">
+            <form class="form-inline">
+                <div class="form-group" style="margin:5px;">
+
+                
+					<form action="" method="get" name="lange">
+						<input name="lange" type="hidden" id="lange" value="en">
+						<input type="image" src="/web/images/en.gif" name="submit" width="30" height="2%" alt="submit"/>
+					</form>	
+
+
+	<!--div class="form-group"-->
+	<label for="form-password"><font color='white'>ชื่อ :  </font><font color='yellow'>[ ผู้เฒ่าพเนจร ™ ]</font></label>
+	<!--/div-->
+
+										
+    <button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:digital'"></i> 🏠 Home ™ </button>
+                   
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:live'"></i> 📡 ถ่ายทอดสด ™</button>
+	
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-serie'"></i> 🎞️ ดูซีรี่ย์ ™ </button>
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>🎥 ดูหนัง ™  </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>📽️ ดูสารคดี ™ </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='http://action_exit'"></i>🚪 ออก</button>					
+
+
+
+------------------------------------------------------------------------------------------
+
+
+        <div class="col-lg-9 col-md-9 col-xs-9" style="width:130%;padding-left:0px;padding-right:0px;">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/9749cc868638fb5f0c661300/9749cc868638fb5f0c661300.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/cb1ef2860316d2f5693c4d91/cb1ef2860316d2f5693c4d91.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/40974c2b80cd05be9f93b310/40974c2b80cd05be9f93b310.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/719eb1abe1ad74457ef87474/719eb1abe1ad74457ef87474.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/60b065e52ba1069da7123116/60b065e52ba1069da7123116.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/e58e28ea82873757a3ca819a/e58e28ea82873757a3ca819a.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/e67ffebf086e0a8f0506ebb9/e67ffebf086e0a8f0506ebb9.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/06/Reset-2025-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/6494302569aaea768d9b0e73/6494302569aaea768d9b0e73.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ce4d12a697fb52f6740b9c3d/ce4d12a697fb52f6740b9c3d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/7c1d52104f9fc11dbbf89640/7c1d52104f9fc11dbbf89640.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/af17407f0c4874a7c464dda7/af17407f0c4874a7c464dda7.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/3fe100327732c89fdfb8e379/3fe100327732c89fdfb8e379.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/71b2a0e140a80dd0400a22de/71b2a0e140a80dd0400a22de.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/8402345b9097eaaaaec1393c/8402345b9097eaaaaec1393c.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/c2e02602bd23125ba26426e3/c2e02602bd23125ba26426e3.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/2b44bd82609ca99fda071f3f/2b44bd82609ca99fda071f3f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Denied-Love-2025-%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/e2cc771711d68c217627f25f/e2cc771711d68c217627f25f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/185ef509cd728f64af9292b5/185ef509cd728f64af9292b5.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/0e0e8f33ff8d8c0cdb5bf8b6/0e0e8f33ff8d8c0cdb5bf8b6.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/b70faf257bffbac4ff83b086/b70faf257bffbac4ff83b086.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/4a9fff7c37f21422848048eb/4a9fff7c37f21422848048eb.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d09fef8e3c3568702a7a6f50/d09fef8e3c3568702a7a6f50.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/600c22a5cb9b429eb30a5e2e/600c22a5cb9b429eb30a5e2e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/384496d3f16d179e866cfb1b/384496d3f16d179e866cfb1b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/3e700853953125f3138295f9/3e700853953125f3138295f9.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/4bfb4b63244dedb96a719786/4bfb4b63244dedb96a719786.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/adda5e5d80808b134d47dcf6/adda5e5d80808b134d47dcf6.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/94b85e9a9e8ea85b8026d99a/94b85e9a9e8ea85b8026d99a.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Knock-Out-2025-%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-214x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/fe0fcb400cceeaca78fedadc/fe0fcb400cceeaca78fedadc.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/2a16de3f42849694073c9bfc/2a16de3f42849694073c9bfc.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/21924e5c316d4971ca43ebb2/21924e5c316d4971ca43ebb2.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d71de1d9bab9c4aa0f4d874f/d71de1d9bab9c4aa0f4d874f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/6895361a0358e02ce7b645d9/6895361a0358e02ce7b645d9.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/4bfc20be43e54baaa606b2cb/4bfc20be43e54baaa606b2cb.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/43188b4e051e14af4e2805dd/43188b4e051e14af4e2805dd.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/6e425d7691d1a80d69021ecf/6e425d7691d1a80d69021ecf.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1bc1e46f870390ab6d9cd890/1bc1e46f870390ab6d9cd890.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/fd864ea562582514abf601f7/fd864ea562582514abf601f7.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/32045c8a5f637e00b343f02b/32045c8a5f637e00b343f02b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1b276157df49ac0d88c6d390/1b276157df49ac0d88c6d390.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serieday-hd.com/wp-content/uploads/2025/05/Happiness-2025-200x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/03065259aa3531f3daf9fb4b/03065259aa3531f3daf9fb4b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/The-Last-Time-2025-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%88%E0%B8%B3%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/320cb9b3edd21f97e166ea59/320cb9b3edd21f97e166ea59.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/My-Miracle-My-Undying-Miracle-2025-210x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/68dfbdfb43203f27d4af3047/68dfbdfb43203f27d4af3047.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/02/My-Miracle-My-Undying-Miracle-2025-210x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1f02bb0fd5e4b82c9ba6fa86/1f02bb0fd5e4b82c9ba6fa86.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/b441e6702b78b0414094ae4b/b441e6702b78b0414094ae4b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ce532a4d32a2fdb1e7a8aa60/ce532a4d32a2fdb1e7a8aa60.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/362526ca5d6f53adbbc4f5ad/362526ca5d6f53adbbc4f5ad.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/eb6711a5a5774fc7a9532fc8/eb6711a5a5774fc7a9532fc8.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/cbe4bb8b18c38a8dcadb7b9d/cbe4bb8b18c38a8dcadb7b9d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/873ba285955ab8c7af3375bc/873ba285955ab8c7af3375bc.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/7824dcbd9520cc3b54e1b5e7/7824dcbd9520cc3b54e1b5e7.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/6dc2d2ea46d52c0b1307d94f/6dc2d2ea46d52c0b1307d94f.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d06ad3847c1bdd3ec9069cd9/d06ad3847c1bdd3ec9069cd9.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/74ac7f88aad6f55657f2f03a/74ac7f88aad6f55657f2f03a.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1e13f206a8ea00356914e1e4/1e13f206a8ea00356914e1e4.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1dd05a007a131fd4b12a9aa8/1dd05a007a131fd4b12a9aa8.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/fff38f00773861ec78f5344e/fff38f00773861ec78f5344e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP13
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/c6eae02444f8245b63cd99b6/c6eae02444f8245b63cd99b6.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP14
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/36de56bb4dfc2cfb18f49422/36de56bb4dfc2cfb18f49422.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP15
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/a614765e2d48e752867138e0/a614765e2d48e752867138e0.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP16
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/65eaadd60d2bf56dcf285564/65eaadd60d2bf56dcf285564.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP17
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/412e8c62ec4753c44e822461/412e8c62ec4753c44e822461.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP18
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/08c29c4aac7175f723794084/08c29c4aac7175f723794084.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP19
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ef206d96731fdc3a01ed6e35/ef206d96731fdc3a01ed6e35.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP20
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1f2f1731559f42b1ef2a57e3/1f2f1731559f42b1ef2a57e3.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP21
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/a0e35fe978ab021652400b01/a0e35fe978ab021652400b01.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP22
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/fc2c3731e91e6a2fae1fa3aa/fc2c3731e91e6a2fae1fa3aa.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP23
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/8cfb57096cf0a71afa35a9c0/8cfb57096cf0a71afa35a9c0.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP24
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/02b040e4f2a89d85ef92f227/02b040e4f2a89d85ef92f227.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP25
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/6c78df2d3cc65abbcf9c9b71/6c78df2d3cc65abbcf9c9b71.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP26
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/51ddc0dd1c392fa95c4629a1/51ddc0dd1c392fa95c4629a1.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP27
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/4ec390fa3a53e7b07b4c6018/4ec390fa3a53e7b07b4c6018.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP28
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/Pentor-2025-217x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/03b5bfc6e9d9de94bc500d51/03b5bfc6e9d9de94bc500d51.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP29
+</p></center>
+</div>
+   
+		
+
+<div class="col-lg-12 col-md-12 col-xs-12">
+	<div class="example" align="center">
+		<nav>
+			<li><a href="go:main-serie" aria-label="Previous"><span aria-hidden="true"><< หน้าแรก</span></a></li>		
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (1).html">1</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (2).html">2</a></li>
+		 				 <li class="active"><a href="https://udzaa2238.github.io/thai-series/thai-series (3).html"><b>3</b></a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (4).html">4</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (5).html">5</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (6).html">6</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (7).html">7</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (8).html">8</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (9).html">9</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (10).html">10</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (11).html">หน้าต่อไป»</a></li>
+						<li><a href="https://udzaa2238.github.io/thai-series/thai-series (15).html">  หน้าสุดท้าย» </a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+
+
+</div>
+</div>
+</div>  
+</div> 
+</div>
+</div>
+</div>

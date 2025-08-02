@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+<title> fw4free-app24-adventure14 </title>
+<meta charset='UTF-8' />
+
+
+<link href="https://playtvthai.github.io/m3u8/css/bootstrap.css" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://playtvthai.github.io/m3u8/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/normalize.css">
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/custom.css">
+
+	
+<!-- Styles of Puerto Responsive Flat Buttons -->
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/main.css">
+	
+<!-- Font awesome -->
+<link rel="stylesheet" href="http://hdtvdd.com/work/assets_remark/fonts/font-awesome/font-awesome.min.css">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://playtvthai.github.io/m3u8/js/jquery-1.11.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900" rel='stylesheet' type='text/css'>
+
+<script src="https://playtvthai.github.io/m3u8/js/jquery.backstretch.js"></script>
+<script src="http://hdtvdd.com/work/bootstrap-login-forms/form-2/assets/js/scripts.js"></script>
+<style type="text/css">
+
+.overlay {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(255,255,255,0);
+}
+
+.overlay-flag {
+    position:absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align:right;
+	background-color:rgba(255,255,255,0);
+
+}
+
+
+.overlay2 {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(0,0,0,0.5);
+	height:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	width:100%;
+	margin-left:0px;
+	margin-top:35px;
+}
+.login_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.live_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.login_txt {
+	border: #0A0A0A;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	width:150px;
+    margin-top: -6px;
+
+}
+
+input:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px
+}
+
+button:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+}
+
+a:focus img{
+	outline: none !important;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+
+}
+
+.box-flag {
+	border: 0px;
+	background-color: rgba(255,255,255,0.0);
+	display: inline-block;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="http://hdtvdd.com/work/font/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/8k.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/overlay.css" type="text/css" charset="utf-8">
+<link href="http://hdtvdd.com/work/css/theme.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <style>
+  .modal-header {
+    background-color: #111;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  
+.group {
+  margin-bottom: 30px;
+}
+.group label {
+  font-size: 24px;
+}
+.group2 label {
+  font-size: 20px;
+}
+  
+  input[type='text'] { font-size: 24px; }
+  
+  </style>
+
+
+
+
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_vip").click(function(){
+    $("#myModal_vip").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_cpass").click(function(){
+    $("#myModal_changepass").modal();
+  });
+});
+</script>
+
+<style type="text/css">
+.footer 
+{
+    text-align: center;
+    position : absolute;
+    bottom : -20;
+    width:99%;
+    height : 56px;
+    margin-top : 50px;
+  }
+</style>
+</header>
+	
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>       
+
+
+										
+  <div class="container" style="background-color:rgba(0,0,0,0.0); height:100%;">
+     <div class="container_wrap">
+     	<div class="row" style="background-color:#27282c;border-radius:5px">
+        	<div class="col-lg-12 col-md-12 col-xs-12" style="margin-top:10px;margin-bottom:10px;">
+            	<div class="row" >
+			<div class="col-lg-2 col-md-2 col-sm-5 col-xs-5">
+				<div class="logo">
+				</div>
+			</div>
+
+
+		<div class="col-lg-10 col-md-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-xs-12" align="left" style="padding-top:0px;padding-bottom:5px;padding-left:5px;padding-right:5px">
+            <form class="form-inline">
+                <div class="form-group" style="margin:5px;">
+
+                
+					<form action="" method="get" name="lange">
+						<input name="lange" type="hidden" id="lange" value="en">
+						<input type="image" src="/web/images/en.gif" name="submit" width="30" height="2%" alt="submit"/>
+					</form>	
+
+
+	<!--div class="form-group"-->
+	<label for="form-password"><font color='white'>ชื่อ :  </font><font color='yellow'>[ ผู้เฒ่าพเนจร ™ ]</font></label>
+	<!--/div-->
+
+										
+    <button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:digital'"></i> 🏠 Home ™ </button>
+                   
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:live'"></i> 📡 ถ่ายทอดสด ™</button>
+	
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-serie'"></i> 🎞️ ดูซีรี่ย์ ™ </button>
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>🎥 ดูหนัง ™  </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>📽️ ดูสารคดี ™ </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='http://action_exit'"></i>🚪 ออก</button>					
+
+
+
+------------------------------------------------------------------------------------------
+
+
+        <div class="col-lg-9 col-md-9 col-xs-9" style="width:130%;padding-left:0px;padding-right:0px;">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+
+
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/df85f181af372040faca40d8/df85f181af372040faca40d8.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/753860cd459702ea449c0d7c/753860cd459702ea449c0d7c.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/30dcd82768c8b556c71454a2/30dcd82768c8b556c71454a2.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/a7bda4c9001b9f3f935c6f89/a7bda4c9001b9f3f935c6f89.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/cf1cca6ed1723e679c98603b/cf1cca6ed1723e679c98603b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/00d6bff56fa303f7e2739921/00d6bff56fa303f7e2739921.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/195ddd010e02e79f3c145798/195ddd010e02e79f3c145798.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/2ca0ff18bf123851e0c3bf3d/2ca0ff18bf123851e0c3bf3d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/bc849f763c26a3d253ff44a0/bc849f763c26a3d253ff44a0.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d60dbe3c524cadb8adb723a7/d60dbe3c524cadb8adb723a7.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/672fb158f237705eb1e9c445/672fb158f237705eb1e9c445.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2025/01/The-Yarns-2025-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/b7b3c6abdef861b3b38082d7/b7b3c6abdef861b3b38082d7.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/4aa5cf883cccd1c8066f8b4a/4aa5cf883cccd1c8066f8b4a.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/068f4d8dce32dcd520d81fd2/068f4d8dce32dcd520d81fd2.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/d3c36ff8bf420b888241642e/d3c36ff8bf420b888241642e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/08a0629b16a8e29bcdf2bbbc/08a0629b16a8e29bcdf2bbbc.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/5f9dd3866bcd6622df38b23d/5f9dd3866bcd6622df38b23d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ea8d1ca22d238b68c82de0e2/ea8d1ca22d238b68c82de0e2.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/85d1ad566a860dedef307b33/85d1ad566a860dedef307b33.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/90752903f3d6cdd990874fa5/90752903f3d6cdd990874fa5.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/2b6f5c5f58a215ddda1e9751/2b6f5c5f58a215ddda1e9751.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/e622f65d43b78ab7eaee0d8e/e622f65d43b78ab7eaee0d8e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/958f01afef88a4fa4100414b/958f01afef88a4fa4100414b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/11/The-Heart-Killers-2024-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/a7da3d4e0d7d9fe8b9efb667/a7da3d4e0d7d9fe8b9efb667.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/eba292f3d8e4efdbef1c97e4/eba292f3d8e4efdbef1c97e4.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP01
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/292e9c6719613182ff81b120/292e9c6719613182ff81b120.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP02
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/c6e78a7fe9ece90a1c992b90/c6e78a7fe9ece90a1c992b90.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP03
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/ab0dc0b48049dcecab506c03/ab0dc0b48049dcecab506c03.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP04
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/341cc610ee7df6abbdb477d1/341cc610ee7df6abbdb477d1.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP05
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/51489a7f97b42c3f53fe1087/51489a7f97b42c3f53fe1087.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP06
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/14aa3c948dff45f8ebe66f7e/14aa3c948dff45f8ebe66f7e.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP07
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/acd9c99723e27bf639c3b17d/acd9c99723e27bf639c3b17d.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP08
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/c1277e4d584d7ececa0324c8/c1277e4d584d7ececa0324c8.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP09
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/9c147b898d8a3439ec9e0425/9c147b898d8a3439ec9e0425.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP10
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1108a346743f0bc775ca90be/1108a346743f0bc775ca90be.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP11
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/3e2227c61d050adf5997e8de/3e2227c61d050adf5997e8de.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP12
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/1ecd7670e869772298b77727/1ecd7670e869772298b77727.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP13
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/7bbccb3a2a281b29bfc3778a/7bbccb3a2a281b29bfc3778a.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP14
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/982e9608b9e490c15cc0f64b/982e9608b9e490c15cc0f64b.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP15
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/3c2724b3692f71411ee72eff/3c2724b3692f71411ee72eff.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP16
+</p></center>
+</div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+    <div class="movie-box">
+        <div class="movie-image">
+            <button class="btn btn-default btn-block btn-lg" type="button" 
+                style="background-size:cover;background-image:url(https://www.serie-day.com/wp-content/uploads/2024/10/Fourever-You-2024-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B3%E0%B8%97%E0%B8%B2%E0%B8%87-240x300.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;" 
+                onclick="window.location.href='https://main.24playerhd.com/newplaylist/04466d6f67fb37054ac0bbd2/04466d6f67fb37054ac0bbd2.m3u8'" autofocus="">
+            </button>
+        </div>
+    </div>
+    <center><p style="color:white">SS1 - EP17
+</p></center>
+</div>
+ 
+ 
+
+<div class="col-lg-12 col-md-12 col-xs-12">
+	<div class="example" align="center">
+		<nav>
+			<ul class="pagination">
+					<li><a href="go:main-fw" aria-label="Previous"><span aria-hidden="true"><< หน้าแรก</span></a></li>		
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (11).html">11</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (12).html">12</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (13).html">13</a></li>
+										<li class="active"><a href="https://udzaa2238.github.io/thai-series/thai-series (14).html"><b>14</b></a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (15).html">15</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (16).html">16</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (17).html">17</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (18).html">18</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (19).html">19</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (20).html">20</a></li>
+										<li><a href="https://udzaa2238.github.io/thai-series/thai-series (21).html">21</a></li>
+						<li><a href="https://udzaa2238.github.io/thai-series/thai-series (40).html">  หน้าสุดท้าย» </a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+
+
+</div>
+</div>
+</div>  
+</div> 
+</div>
+</div>
+</div>
