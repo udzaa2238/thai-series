@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+<title> ซีรี่ย์ละครไทย หน้าที่ 1 </title>
+<meta charset='UTF-8' />
+
+
+<link href="https://playtvthai.github.io/m3u8/css/bootstrap.css" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://playtvthai.github.io/m3u8/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/normalize.css">
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/custom.css">
+
+	
+<!-- Styles of Puerto Responsive Flat Buttons -->
+<link rel="stylesheet" href="https://playtvthai.github.io/m3u8/css/main.css">
+	
+<!-- Font awesome -->
+<link rel="stylesheet" href="http://hdtvdd.com/work/assets_remark/fonts/font-awesome/font-awesome.min.css">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://playtvthai.github.io/m3u8/js/jquery-1.11.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900" rel='stylesheet' type='text/css'>
+
+<script src="https://playtvthai.github.io/m3u8/js/jquery.backstretch.js"></script>
+<script src="http://hdtvdd.com/work/bootstrap-login-forms/form-2/assets/js/scripts.js"></script>
+<style type="text/css">
+
+.overlay {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(255,255,255,0);
+}
+
+.overlay-flag {
+    position:absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align:right;
+	background-color:rgba(255,255,255,0);
+
+}
+
+
+.overlay2 {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    position:absolute;
+    text-align:left;
+	background-color:rgba(0,0,0,0.5);
+	height:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	width:100%;
+	margin-left:0px;
+	margin-top:35px;
+}
+.login_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.live_botton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.login_txt {
+	border: #0A0A0A;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	width:150px;
+    margin-top: -6px;
+
+}
+
+input:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px
+}
+
+button:focus {
+	outline: none !important;
+	border-color: #F7AA06;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+}
+
+a:focus img{
+	outline: none !important;
+	box-shadow: 0 0 0 5px #F7AA06;
+	border-radius: 2px;
+
+}
+
+.box-flag {
+	border: 0px;
+	background-color: rgba(255,255,255,0.0);
+	display: inline-block;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="http://hdtvdd.com/work/font/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/8k.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://hdtvdd.com/work/css/overlay.css" type="text/css" charset="utf-8">
+<link href="http://hdtvdd.com/work/css/theme.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <style>
+  .modal-header {
+    background-color: #111;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  
+.group {
+  margin-bottom: 30px;
+}
+.group label {
+  font-size: 24px;
+}
+.group2 label {
+  font-size: 20px;
+}
+  
+  input[type='text'] { font-size: 24px; }
+  
+  </style>
+
+
+
+
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_vip").click(function(){
+    $("#myModal_vip").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn_cpass").click(function(){
+    $("#myModal_changepass").modal();
+  });
+});
+</script>
+
+<style type="text/css">
+.footer 
+{
+    text-align: center;
+    position : absolute;
+    bottom : -20;
+    width:99%;
+    height : 56px;
+    margin-top : 50px;
+  }
+</style>
+</header>
+	
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>       
+
+
+										
+  <div class="container" style="background-color:rgba(0,0,0,0.0); height:100%;">
+     <div class="container_wrap">
+     	<div class="row" style="background-color:#27282c;border-radius:5px">
+        	<div class="col-lg-12 col-md-12 col-xs-12" style="margin-top:10px;margin-bottom:10px;">
+            	<div class="row" >
+			<div class="col-lg-2 col-md-2 col-sm-5 col-xs-5">
+				<div class="logo">
+				</div>
+			</div>
+
+
+		<div class="col-lg-10 col-md-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-xs-12" align="left" style="padding-top:0px;padding-bottom:5px;padding-left:5px;padding-right:5px">
+            <form class="form-inline">
+                <div class="form-group" style="margin:5px;">
+
+                
+					<form action="" method="get" name="lange">
+						<input name="lange" type="hidden" id="lange" value="en">
+						<input type="image" src="/web/images/en.gif" name="submit" width="30" height="2%" alt="submit"/>
+					</form>	
+
+
+	<!--div class="form-group"-->
+	<label for="form-password"><font color='white'>ชื่อ :  </font><font color='yellow'>[ ผู้เฒ่าพเนจร ™ ]</font></label>
+	<!--/div-->
+
+										
+    <button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:digital'"></i> 🏠 Home ™ </button>
+                   
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:live'"></i> 📡 ถ่ายทอดสด ™</button>
+	
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-serie'"></i> 🎞️ ดูซีรี่ย์ ™ </button>
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>🎥 ดูหนัง ™  </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='go:main-movie'"></i>📽️ ดูสารคดี ™ </button>					
+					
+	<button class="btn btn-default" type="button" style="background-color:transparent;border-radius:2px;border:0px;font-size:18px;color:#FFF;padding-left:5px;padding-right:5px;font-family: 'rsuregular';" onclick="window.location.href='http://action_exit'"></i>🚪 ออก</button>					
+
+-------------------------------------------------------------------------
+
+        <div class="col-lg-9 col-md-9 col-xs-9" style="width:77%;padding-left:0px;padding-right:10px;">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/09/Mandate-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/3d9bdc41e616c1138869606e/3d9bdc41e616c1138869606e.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Mandate (2025) คมเดือน - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/09/Mandate-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/9649cd582c36949ac544f1dc/9649cd582c36949ac544f1dc.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Mandate (2025) คมเดือน - ตอนที่ EP2-1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/09/Mandate-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/m3u8/9649cd582c36949ac544f1dc/9649cd582c36949ac544f1dc168.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Mandate (2025) คมเดือน - ตอนที่ EP2-2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/09/Mandate-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/m3u8/9649cd582c36949ac544f1dc/9649cd582c36949ac544f1dc438.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Mandate (2025) คมเดือน - ตอนที่ EP2-3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/09/Mandate-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/9649cd582c36949ac544f1dc/9649cd582c36949ac544f1dc.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Mandate (2025) คมเดือน - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/7d93aaec043b274b532c6ff9/7d93aaec043b274b532c6ff9.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP8
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/6024602c40f328102facaf61/6024602c40f328102facaf61.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP7
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/e963d47b6f1c65488f606c81/e963d47b6f1c65488f606c81.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP6
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/b70cca4b771a94cf8795065a/b70cca4b771a94cf8795065a.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP5
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/5d58b88062519f39b59bddea/5d58b88062519f39b59bddea.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP4
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/b08e4210b9dc026b93da0879/b08e4210b9dc026b93da0879.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/2d244c5082507e246dfa9c37/2d244c5082507e246dfa9c37.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/07/DOCTORS-MINE-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/5edc87317acd94dc45b0569d/5edc87317acd94dc45b0569d.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) DOCTOR'S MINE (2025) หมอน่ารักคนนี้เป็นของผม (Uncut) - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Revamp-the-Undead-Story-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/214a01b1683ec32d9f61211d/214a01b1683ec32d9f61211d.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Revamp the Undead Story (2025) - ตอนที่ EP3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Revamp-the-Undead-Story-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/6152dc47e079435f43dac38f/6152dc47e079435f43dac38f.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Revamp the Undead Story (2025) - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Revamp-the-Undead-Story-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/e054c5c96df9e8653af0a4c2/e054c5c96df9e8653af0a4c2.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Revamp the Undead Story (2025) - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Enigma-Black-Stage-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/b260f0ba60f727bd887a3755/b260f0ba60f727bd887a3755.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(จบแล้ว) Enigma Black Stage (2025) บุหงาหมื่นภมร - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Enigma-Black-Stage-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/aba8796669c6af366b286d51/aba8796669c6af366b286d51.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(จบแล้ว) Enigma Black Stage (2025) บุหงาหมื่นภมร - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Enigma-Black-Stage-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/4739c74231c5f700c5b8b7c3/4739c74231c5f700c5b8b7c3.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(จบแล้ว) Enigma Black Stage (2025) บุหงาหมื่นภมร - ตอนที่ EP3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Enigma-Black-Stage-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/be9bbed7ca3952018a94f17c/be9bbed7ca3952018a94f17c.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(จบแล้ว) Enigma Black Stage (2025) บุหงาหมื่นภมร - ตอนที่ EP4
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Enigma-Black-Stage-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/73323315f4328b4e8d48dce4/73323315f4328b4e8d48dce4.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(จบแล้ว) Enigma Black Stage (2025) บุหงาหมื่นภมร - ตอนที่ EP5
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/7c2ee1d9b5f27d83451ad373/7c2ee1d9b5f27d83451ad373.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP10
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/56ed7660580f50cddec7b307/56ed7660580f50cddec7b307.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP9
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/07b90ce51a2196ed7716236a/07b90ce51a2196ed7716236a.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP8
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/13dbaf52034359144439e5a2/13dbaf52034359144439e5a2.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP7
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/4eb7710cbff73dd8af36c088/4eb7710cbff73dd8af36c088.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP6
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/4f4efa3fc828b32c615f5545/4f4efa3fc828b32c615f5545.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP5
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/696d42091b49357c5265b3a7/696d42091b49357c5265b3a7.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP4
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/99938a43808893a7444c92ed/99938a43808893a7444c92ed.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/107a5e7125d901c6ea77191f/107a5e7125d901c6ea77191f.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/The-Thirsty-Thirty-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/c9e8545bf8387d61bfce1ed8/c9e8545bf8387d61bfce1ed8.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) The Thirsty Thirty (2025) 30 พึ่งเริ่มต้น - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Khemjira-2025-เขมจิราต้องรอด.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/6bddca3cc1f27817711cc969/6bddca3cc1f27817711cc969.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Khemjira (2025) เขมจิราต้องรอด - ตอนที่ EP5
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Khemjira-2025-เขมจิราต้องรอด.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/02711bfbcaad46256bca3539/02711bfbcaad46256bca3539.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Khemjira (2025) เขมจิราต้องรอด - ตอนที่ EP4
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Khemjira-2025-เขมจิราต้องรอด.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/caeb0e6d8ae59e78f58dc31b/caeb0e6d8ae59e78f58dc31b.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Khemjira (2025) เขมจิราต้องรอด - ตอนที่ EP3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Khemjira-2025-เขมจิราต้องรอด.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/f250d5b227396e200580b643/f250d5b227396e200580b643.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Khemjira (2025) เขมจิราต้องรอด - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/Khemjira-2025-เขมจิราต้องรอด.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/bb46dae450d68fac97d6e02b/bb46dae450d68fac97d6e02b.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) Khemjira (2025) เขมจิราต้องรอด - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/87fb91a18a28d2bb7d8828cf/87fb91a18a28d2bb7d8828cf.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP7
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/bcd6d7333a1f67474746440f/bcd6d7333a1f67474746440f.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP6
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/60b6afc03cea222bb802ed4f/60b6afc03cea222bb802ed4f.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP5
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/bc4826e7d31ca34672c05cf7/bc4826e7d31ca34672c05cf7.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP4
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/3cb13587d0626469fe852531/3cb13587d0626469fe852531.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP3
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/99b2a5acf94113a251b303b1/99b2a5acf94113a251b303b1.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP2
+</p></center>
+  </div>
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 m-col-md-2" style="width:20%;height:300px;padding:5px">
+ <div class="movie-box">
+   <div class="movie-image">
+   <button class="btn btn-default btn-block btn-lg" type="button"	style="background-size:cover;background-image:url(https://www.seriesday-hd.com/wp-content/uploads/2025/08/My-Magic-Prophecy-2025.jpg);width:150px;height:250.45px;background-repeat:no-repeat;border:none;border-radius:2px;"onclick="window.location.href='https://main.24playerhd.com/newplaylist/aaa084f7f41a50976afeca14/aaa084f7f41a50976afeca14.m3u8'" autofocus="">
+	</button>
+	</div>
+	</div>
+	<center><p style="color:white">(กำลังฉาย) My Magic Prophecy (2025) ทำนายทายทัพ - ตอนที่ EP1
+</p></center>
+  </div>
+
+
+
+		
+
+<div class="col-lg-12 col-md-12 col-xs-12">
+	<div class="example" align="center">
+	<nav>
+	<ul class="pagination">
+<li><a href="go:fw-ac1" aria-label="Previous"><span aria-hidden="true"><< หน้าแรก</span></a></li>		
+	<li class="active"><a href="#"><b>1</b></a></li>
+	<li><a href='go:fw-ac2'>2</a></li>
+	<li><a href='go:fw-ac3'>3</a></li>
+	<li><a href='go:fw-ac4'>4</a></li>
+	<li><a href='go:fw-ac5'>5</a></li>
+	<li><a href='go:fw-ac6'>6</a></li>
+	<li><a href='go:fw-ac7'>7</a></li>
+	<li><a href='go:fw-ac8'>8</a></li>
+	<li><a href='go:fw-ac9'>9</a></li>
+	<li><a href='go:fw-ac10'>10</a></li>
+	<li><a href ='go:fw-ac4'>»</a></li>
+	<li><a href='go:main-movie'><b>หน้าหลัก»</b></a></li>
+	</ul>
+	</nav>
+	</div>
+</div>
+
+
+
+</div>
+</div>
+</div>  
+</div> 
+</div>
+</div>
+</div>
