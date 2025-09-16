@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html dir='ltr' lang='en'>
 <head>
@@ -138,6 +139,49 @@ a:focus img{
 <link rel="stylesheet" href="http://hdtvdd.com/work/css/overlay.css" type="text/css" charset="utf-8">
 <link href="http://hdtvdd.com/work/css/theme.css" rel="stylesheet">
 
+
+<style>
+/* ===== FIX: กันโลโก้แถวล่างทับชื่อเรื่องแถวบน ===== */
+/* ให้แน่ใจว่าแต่ละการ์ดมีความกว้าง 20% และเว้นระยะให้โลโก้ไม่ทับกัน */
+.col-md-2.col-sm-2.col-xs-2.m-col-md-2 {
+  width: 20%;  /* กำหนดให้มี 5 รายการใน 1 แถว */
+  padding: 10px; 
+  height: auto;  /* ให้ความสูงอัตโนมัติ เพื่อให้ไม่ทับ */
+  box-sizing: border-box;  /* ป้องกันการทับของเนื้อหากับขอบ */
+}
+
+/* ปรับโลโก้ให้ไม่ทับชื่อเรื่อง */
+.movie-box {
+  display: flex;
+  flex-direction: column; /* ทำให้โลโก้และชื่อเรื่องเรียงแนวตั้ง */
+  justify-content: flex-start;
+  height: 100%;
+}
+
+/* ทำให้โลโก้มีขนาดพอดีในกรอบ */
+.movie-image button {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 2px;
+}
+
+/* ชื่อเรื่องให้มีความยืดหยุ่นและไม่ทับกัน */
+.movie-box center p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* ข้อความไม่ควรล้นหลายบรรทัด */
+  height: 40px;
+}
+</style>
+<!-- ===== END FIX ===== -->
 </head>
 <body>
 
